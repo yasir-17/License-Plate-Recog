@@ -1,1 +1,2 @@
 # License-Plate-Recog
+As many images obtained for license plate detection are blurred with an unknown point spread function (psf), we developed a function to estimate the psf and then image is deblurred using richardson lucy algorithm. The license plate is extracted from this deblurred image using different image processing method and then standard OCR technique like EasyOCR are used for character recognition
